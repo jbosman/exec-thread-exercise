@@ -1,0 +1,36 @@
+banner {
+	z-index: 999;
+
+	nav{ background-color: $mainBGcolor; }
+	
+	#hrLines:before, #hrLines:after{
+		display:block;
+		height: 3px;
+		background-color: #FFF;
+		content: ' ';
+		width: 100%;
+		margin-top: 25px;
+	}
+	
+	
+	#hrLines:after { margin-top: 5px; }
+
+	#textDiv { 
+		margin-top: -20px;
+		margin-bottom: 20px; 
+	}
+
+	span {
+		color: #FFF;
+		background-color: #34DDDD;
+		text-align: center;
+		display: table;
+		margin: 0 auto;	
+		padding: 0 15px;
+		box-shadow: 0px 17px 2px -7px #000;
+
+		s {
+			color: #FF0000;
+		}
+	}
+}

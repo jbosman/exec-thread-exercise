@@ -1,0 +1,18 @@
+$mainBGcolor: #3498db;
+$textColor: #FFF;
+
+* {
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+
+html, body {
+	font-size: 22px;
+  	font-family: "Roboto", Open Sans;
+  	background: #3498db;
+  	color: $textColor;
+}
+
+@import 'banner';
+@import 'Shell/index';
